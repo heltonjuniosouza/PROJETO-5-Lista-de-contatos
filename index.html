@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>PROJETO-CONVERSOR-MOEDAS</title>
+</head>
+
+<body>
+    <img class="animação" src="./assets/animação.png" alt="animação-devclub-conversor-moedas">
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="input-currency" placeholder="R$ 1.000,00">
+        </label>
+
+        <div class="div-buttons">
+            <button class="convert-button">Converter</button>
+        </div>
+
+        <section>
+            <div class="currency-box">
+                <img class="img-br" src="./assets/logo-brasil.png" alt="logo-converter">
+                <p class="currency">Real</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+
+            <img class="arrow-img" src="./assets/logo-arrow.png" alt="logo-seta">
+
+            <div class="currency-box">
+                <img class="currency-img" src="./assets/logo-estados-unidos.png" alt="logo-convertido">
+                <p class="currency" id="currency-name">Dólar americano</p>
+                <p class="currency-value">US$ 0.0</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+<footer class="Criação">
+
+    <P><b>©Criação 2024.Autor: </b>HELTON SOUZA.</p>
+    <p><b>Contato:</b>heltonjuniosouza@gmail.com</p>
+    <p><b>WhatsApp:</b>(31) 99544-7731</p>
+
+</footer>
+
+</html>
